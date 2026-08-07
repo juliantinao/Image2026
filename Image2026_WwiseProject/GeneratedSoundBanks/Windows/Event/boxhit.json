@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3378910583",
+    "Type": "Event",
+    "GUID": "{205FE609-98FE-448B-A2C6-1E41917BE74A}",
+    "Language": "SFX",
+    "Hash": "{54D4275C-D792-4274-A928-AEA9ACFF1096}",
+    "ObjectPath": "boxhit",
+    "ShortName": "boxhit",
+    "Path": "Event/boxhit.bnk",
+    "Media": [
+     {
+      "Id": "775388851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BoxHit-001.wav",
+      "Path": "Media/775388851.wem",
+      "CachePath": "C5/{C554809C-9497-61F5-225A-42524BAA5BA3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3378910583",
+      "Name": "boxhit",
+      "ObjectPath": "\\Events\\Default Work Unit\\boxhit",
+      "GUID": "{205FE609-98FE-448B-A2C6-1E41917BE74A}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.103812",
+      "DurationMax": "8.103812",
+      "MediaRefs": [
+       {
+        "Id": "775388851"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CA396355-94F0-B089-C5AE-072A18BCD6E3}"
+ }
+}

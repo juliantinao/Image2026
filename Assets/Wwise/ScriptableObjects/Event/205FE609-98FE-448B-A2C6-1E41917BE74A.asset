@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def9b8f2abf8a2740b687e06eac968e3, type: 3}
+  m_Name: 205FE609-98FE-448B-A2C6-1E41917BE74A
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: boxhit
+  id: 3378910583
+  guid: 205FE609-98FE-448B-A2C6-1E41917BE74A
+  IsInUserDefinedSoundBank: 0
