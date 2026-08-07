@@ -1,8 +1,9 @@
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         
@@ -12,5 +13,13 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnJump(InputValue value)
+    {
+        
+       Debug.Log("pressed");
+       
+
     }
 }
