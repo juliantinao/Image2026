@@ -737,6 +737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   jumpAction: {fileID: -2877527478478069103, guid: 11b9ef8261a98f7468820ecb1d704226, type: 3}
   moveAction: {fileID: 9151427814690625800, guid: 11b9ef8261a98f7468820ecb1d704226, type: 3}
+  lookAction: {fileID: -3885258658363507791, guid: 11b9ef8261a98f7468820ecb1d704226, type: 3}
 --- !u!114 &2053186635
 MonoBehaviour:
   m_ObjectHideFlags: 0
