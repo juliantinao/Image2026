@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="boxhit" ID="{1EC157E3-815C-4EE2-BCF5-6C46980C6021}" ShortID="716432208">
+						<Sound Name="salto" ID="{1EC157E3-815C-4EE2-BCF5-6C46980C6021}" ShortID="716432208">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5115E6BF-90EE-4EF5-B81A-3E58CE782CEE}"/>
@@ -30,11 +30,28 @@
 										<MediaID ID="775388851"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="PlayerMovementJump-001" ID="{5AA75340-0ADF-4650-A95F-D66859A98FF4}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerMovementJump-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="605844452"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BoxHit-001" ID="{F225638E-5F7F-4FF3-845C-88C11913EA4A}" Platform="Linked"/>
+								<ActiveSource Name="PlayerMovementJump-001" ID="{5AA75340-0ADF-4650-A95F-D66859A98FF4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Paso" ID="{26B0C693-4EA7-47A0-9725-575C33ABF063}" ShortID="862731787">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5115E6BF-90EE-4EF5-B81A-3E58CE782CEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A310A50C-7F7D-4747-8872-F3078888A428}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</PropertyContainer>
 			</ChildrenList>

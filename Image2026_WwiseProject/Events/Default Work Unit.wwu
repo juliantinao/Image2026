@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{2945BFFF-8038-4CEE-9565-770C53DD648A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="boxhit" ID="{205FE609-98FE-448B-A2C6-1E41917BE74A}">
+				<Event Name="salto" ID="{205FE609-98FE-448B-A2C6-1E41917BE74A}">
 					<ChildrenList>
 						<Action Name="" ID="{F472B6C1-C3B4-4ED8-ABF4-F6E1DF9BFA94}" ShortID="408590447">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="boxhit" ID="{1EC157E3-815C-4EE2-BCF5-6C46980C6021}" WorkUnitID="{745653B9-AACB-4307-AB83-32AD6AD3FD43}"/>
+									<ObjectRef Name="salto" ID="{1EC157E3-815C-4EE2-BCF5-6C46980C6021}" WorkUnitID="{745653B9-AACB-4307-AB83-32AD6AD3FD43}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

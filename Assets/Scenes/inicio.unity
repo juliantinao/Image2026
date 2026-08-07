@@ -705,7 +705,7 @@ Rigidbody:
   m_GameObject: {fileID: 2053186628}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 5
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -721,7 +721,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &2053186634
 MonoBehaviour:
@@ -735,6 +735,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53eff23d31d9dc94ba418acccd90748c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  jumpAction: {fileID: -2877527478478069103, guid: 11b9ef8261a98f7468820ecb1d704226, type: 3}
+  moveAction: {fileID: 9151427814690625800, guid: 11b9ef8261a98f7468820ecb1d704226, type: 3}
 --- !u!114 &2053186635
 MonoBehaviour:
   m_ObjectHideFlags: 0

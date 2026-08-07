@@ -16,6 +16,21 @@ namespace AK
         static const AkUniqueID BOXHIT = 3378910583U;
     } // namespace EVENTS
 
+    namespace SWITCHES
+    {
+        namespace STEPTYPE
+        {
+            static const AkUniqueID GROUP = 476420167U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID STONE = 1216965916U;
+            } // namespace SWITCH
+        } // namespace STEPTYPE
+
+    } // namespace SWITCHES
+
     namespace BUSSES
     {
         static const AkUniqueID MAIN_AUDIO_BUS = 2246998526U;
